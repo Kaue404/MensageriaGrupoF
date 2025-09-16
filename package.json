@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "mensageria.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node mensageria.js",
+  "dev": "node mensageria.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +13,7 @@
   "description": "",
   "dependencies": {
     "@google-cloud/pubsub": "^5.2.0",
+  "express": "^4.19.2",
     "dotenv": "^17.2.2"
   },
   "devDependencies": {},
