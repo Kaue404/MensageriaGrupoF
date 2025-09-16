@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "mensageria.js",
   "scripts": {
-  "start": "node mensageria.js",
-  "dev": "node mensageria.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node mensageria.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,14 @@
   "description": "",
   "dependencies": {
     "@google-cloud/pubsub": "^5.2.0",
-  "express": "^4.19.2",
-    "dotenv": "^17.2.2"
+    "express": "^4.19.2",
+    "dotenv": "^17.2.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
   },
-  "devDependencies": {},
   "type": "commonjs"
 }
