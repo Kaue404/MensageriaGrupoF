@@ -1,4 +1,3 @@
-// Centralized export file for all models
 const Booking = require('./Booking');
 const Customer = require('./Customer');
 const Hotel = require('./Hotel');
