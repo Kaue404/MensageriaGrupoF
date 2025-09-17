@@ -1,0 +1,10 @@
+Para java, usando a Env padrao
+GOOGLE_APPLICATION_CREDENTIALS
+
+Adicionar isso ao .Env:
+
+<dependency>
+<groupId>com.google.cloud</groupId>
+<artifactId>google-cloud-pubsub</artifactId>
+<version>1.141.3</version>
+</dependency>
