@@ -36,7 +36,7 @@ CREATE TABLE hotels (
 -- ========================
 CREATE TABLE reservations (
     id SERIAL PRIMARY KEY,
-    uuid UUID UNIQUE NOT NULL,
+    uuid UUID UNIQUE NOT NULL SET DEFAULT uuid_generate_v4(),
     created_at TIMESTAMP NOT NULL,
     updated_at TIMESTAMP,
     type VARCHAR(10),
