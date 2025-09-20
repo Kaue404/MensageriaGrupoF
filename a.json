@@ -1,0 +1,57 @@
+{
+    "uuid": "d35ae018-b0e3-4d70-822e-7e011bba6984",
+    "created_at": "2025-09-04 19:22:33",
+    "updated_at": "2025-09-17 11:22:33",
+    "type": "AB",
+    "status": "cancelled",
+    "total_amount": 4073.9919540027277,
+    "currency": "BRL",
+    "customer": {
+        "id": 20549,
+        "name": "Maria Oliveira",
+        "document": "965.192.696-15",
+        "email": "customer20549@example.com",
+        "phone": "(61) 97941-3879",
+        "country": "Brazil",
+        "loyalty_tier": 2
+    },
+    "hotel_id": null,
+    "rooms": [
+        {
+            "room_number": "365",
+            "daily_rate": 190,
+            "number_of_days": 5,
+            "checkin_date": "2025-10-26",
+            "checkout_date": "2025-10-31",
+            "status": "cancelled",
+            "guests": 1,
+            "breakfast_included": false,
+            "category_id": null,
+            "sub_category_id": null
+        },
+        {
+            "room_number": "377",
+            "daily_rate": 239,
+            "number_of_days": 7,
+            "checkin_date": "2025-11-02",
+            "checkout_date": "2025-11-09",
+            "status": "confirmed",
+            "guests": 2,
+            "breakfast_included": true,
+            "category_id": null,
+            "sub_category_id": null
+        },
+        {
+            "room_number": "436",
+            "daily_rate": 457,
+            "number_of_days": 6,
+            "checkin_date": "2025-11-05",
+            "checkout_date": "2025-11-11",
+            "status": "confirmed",
+            "guests": 3,
+            "breakfast_included": false,
+            "category_id": null,
+            "sub_category_id": null
+        }
+    ]
+}
