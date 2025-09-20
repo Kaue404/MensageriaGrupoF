@@ -142,7 +142,9 @@ pchave.json
 
 # Build files
 build/
-dist/# Logs
+dist/.env
+node_modules
+pchave.json# Logs
 logs
 *.log
 npm-debug.log*
@@ -286,6 +288,4 @@ pchave.json
 
 # Build files
 build/
-dist/.env
-node_modules
-pchave.json
+dist/
