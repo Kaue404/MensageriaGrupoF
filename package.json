@@ -1,24 +1,16 @@
 {
-  "name": "mensageria",
+  "name": "reservas-hotel-node",
   "version": "1.0.0",
-  "main": "mensageria.js",
+  "description": "Projeto simples: consumidor de reservas e API GET /reserves",
+  "main": "app.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node mensageria.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start": "node app.js",
+    "seed": "node seed.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@google-cloud/pubsub": "^5.2.0",
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.2",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.10",
-    "pg": "^8.16.3"
-  },
-  "type": "commonjs"
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
 }
